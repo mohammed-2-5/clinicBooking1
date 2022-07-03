@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Project.urls'
-Temp_DIR = str(Path(__file__).resolve().parent) +'/templates'
+Temp_DIR = str(Path(__file__).resolve().parent) +'/Templates'
 
 TEMPLATES = [
     {
